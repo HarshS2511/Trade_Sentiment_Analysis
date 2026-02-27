@@ -9,17 +9,19 @@ Analyze how Bitcoin market sentiment (Fear/Greed Index) relates to trader behavi
 
 ## Project Structure
 ```
-├── Trader_Sentiment_Analysis.ipynb   ← Main analysis notebook
-├── fear_greed.csv                     ← Bitcoin Fear/Greed Index dataset
-├── trader_data.csv                    ← Hyperliquid trader transactions
-├── charts/                            ← All generated charts
-│   ├── chart1_performance_by_sentiment.png
-│   ├── chart2_behavior_by_sentiment.png
-│   ├── chart3_pnl_distribution.png
-│   ├── chart4_segments.png
-│   ├── chart5_pnl_over_time.png
-│   └── chart6_model_feature_importance.png
-└── README.md
+README.md
+Summary.md
+Trader_Sentiment_Analysis.ipynb   ← Main analysis notebook
+charts/                            ← All generated charts
+    chart1_performance_by_sentiment.png
+    chart2_behavior_by_sentiment.png
+    chart3_pnl_distribution.png
+    chart4_segments.png
+    chart5_pnl_over_time.png
+    chart6_model_feature_importance.png
+fear_greed.csv                     ← Bitcoin Fear/Greed Index dataset
+trader_data.csv                    ← Hyperliquid trader transactions
+
 ```
 
 ---
