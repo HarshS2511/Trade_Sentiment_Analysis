@@ -37,7 +37,7 @@ pip install pandas numpy matplotlib scikit-learn jupyter
 ```bash
 jupyter notebook Trader_Sentiment_Analysis.ipynb
 ```
-Run all cells top to bottom. Charts will be saved to the `charts/` folder automatically.
+Run all cells top to bottom.
 
 ---
 
