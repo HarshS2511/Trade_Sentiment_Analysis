@@ -7,7 +7,7 @@ Analyze how Bitcoin market sentiment (Fear/Greed Index) relates to trader behavi
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```
 ├── Trader_Sentiment_Analysis.ipynb   ← Main analysis notebook
 ├── fear_greed.csv                     ← Bitcoin Fear/Greed Index dataset
@@ -24,7 +24,7 @@ Analyze how Bitcoin market sentiment (Fear/Greed Index) relates to trader behavi
 
 ---
 
-## ⚙️ Setup & How to Run
+## Setup & How to Run
 
 ### Requirements
 ```bash
@@ -39,7 +39,7 @@ Run all cells top to bottom. Charts will be saved to the `charts/` folder automa
 
 ---
 
-## 📊 Datasets
+## Datasets
 | Dataset | Rows | Columns | Date Range |
 |---------|------|---------|------------|
 | Fear/Greed Index | 2,644 | 4 | 2018–2025 |
@@ -48,7 +48,7 @@ Run all cells top to bottom. Charts will be saved to the `charts/` folder automa
 
 ---
 
-## 🔍 Key Insights
+## Key Insights
 
 ### Insight 1 — Fear Days = Higher (but Volatile) PnL
 Average daily PnL is **$5,185 on Fear days vs $4,144 on Greed days**. However, Fear days show wider dispersion extreme winners pull the mean up while many traders lose. Median PnL is actually higher on Greed days ($265 vs $123), showing more consistent returns.
@@ -63,7 +63,7 @@ On Fear days, average position size is **$8,530 vs $5,955** on Greed days. Long/
 
 ---
 
-## 🚀 Strategy Recommendations
+## Strategy Recommendations
 
 ### Rule 1: "Fear = Opportunity for Large, Long-Biased Traders"
 > During Fear days, high-capital accounts (avg size >$10K) should **increase long exposure**. The market overreacts to fear dip-buying strategies consistently outperform during these periods.
@@ -73,7 +73,7 @@ On Fear days, average position size is **$8,530 vs $5,955** on Greed days. Long/
 
 ---
 
-## 🤖 Bonus — Predictive Model
+## Bonus — Predictive Model
 A **Logistic Regression** model trained on behavioral features (trade frequency, position size, win rate, long/short ratio, sentiment) achieves **90% accuracy** in predicting whether a trader will be profitable on a given day. Win rate and L/S ratio are the strongest predictors.
 
 ---
